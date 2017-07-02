@@ -1,0 +1,297 @@
+.shopping-cart{
+	margin: 40px 0;
+}
+
+.shopping-cart .prodect{
+	background-color: #fff;
+	padding: 30px 0;
+	margin-bottom: 10px
+}
+
+.shopping-cart .prodect h4{
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.shopping-cart .prodect img{
+	width: 100%;
+}
+
+.shopping-cart .prodect i{
+	padding-right: 5px;
+}
+
+.shopping-cart .prodect input{
+	width: 100%;
+}
+
+.shopping-cart .prodect p a{
+	margin-bottom: 20px;
+}
+
+.shopping-cart .prodect .inline{
+	display: inline-block;
+}
+
+.shopping-cart .buttons{
+	margin: 20px 0;
+	padding: 20px 0;
+}
+
+.shopping-cart .buttons a{
+	border:1px solid #c1c1c1;
+	padding: 10px;
+	color: #7b7474;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+	-o-transition: .2s;
+	margin-right: 20px
+}
+
+.shopping-cart .buttons a:hover{
+	text-decoration:none;
+	background-color: #333;
+	color: #fff;
+}
+
+.shopping-cart .title h4{
+	font-weight: bold;
+	display: inline-block;
+}
+
+.shopping-cart .title .glyphicon-minus{
+    float: right;
+    padding-top: 15px;
+}
+
+.shopping-cart .contents{
+	border-top: 1px solid #c1c1c1;
+	margin-top: 15px;
+	padding-top: 15px
+}
+
+.shopping-cart .contents select{
+	width: 100%;
+    padding: 10px;
+    color: #c1c1c1;
+    border: 1px solid #c1c1c1;
+}
+
+.shopping-cart .contents input{
+	margin-top: 20px;
+    width: 100%;
+    padding: 8px;
+}
+
+.shopping-cart .contents button{
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #c1c1c1;
+    padding: 8px 22px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+}
+
+.shopping-cart .contents button:hover{
+	background-color: #333;
+	color: #fff;
+}
+
+.shopping-cart .contents p{
+	color: #c1c1c1;
+	font-style: italic;
+}
+
+.shopping-cart .chackout{
+	background-color: #fff;
+	padding: 25px 30px;
+	direction: rtl;
+}
+
+.shopping-cart .chackout p span{
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.shopping-cart .chackout .bool{
+	font-size: 18px;
+	border-bottom: 1px solid #c1c1c1;
+	padding-bottom: 30px
+}
+
+.shopping-cart .chackout .bool span:not(:first-child){
+	color: #f00;
+}
+
+.shopping-cart .chackout button{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 15px 0;
+    margin: 10px 0;
+    width: 100%
+}
+
+.shopping-cart .chackout p{
+	padding-top: 10px;
+	color: #c1c1c1
+}
+
+
+/*****
+	media
+******/
+
+@media (max-width: 992px){
+	.container {
+		width: auto;
+    	}
+}
+
+@media (max-width: 866px){
+	.shopping-cart .chackout .bool{
+		font-size: 16px
+	}
+}
+
+@media (max-width: 845px){
+	.shopping-cart .col-xs-7{
+		width: 46.33333333%;
+	}
+
+	.shopping-cart .col-xs-5{
+		width: 50.3333333%;
+	}
+}
+
+@media (max-width: 767px){
+	.shopping-cart .chackout{
+		margin-top: 30px;
+	}
+
+	.shopping-cart .title{
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 688px){
+	.clearboth{
+		clear: both;
+		width: 100% !important;
+		padding-bottom: 20px
+	}
+	.col-iq-7{
+		width: 70%;
+	}
+
+	.col-iq-3{
+		width: 30%;
+	}
+}
+
+@media (max-width: 573px){
+	.shopping-cart .pull-right{
+		float: none !important;
+		display: inline-block;
+		margin-top: 20px
+	}
+
+}
+
+@media (max-width: 530px){
+
+	.col-iq-7{
+		width: 100%;
+	}
+	.col-iq-3{
+		width: 100%;
+		padding-top: 20px
+	}
+}
+
+@media (max-width: 406px){
+	.shopping-cart .buttons a{
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 378px){
+	.medima{
+		width: 50% !important;
+	}
+}
+
+@media (max-width: 366px){
+	.shopping-cart .buttons a{
+		display: inherit;
+		margin-bottom: 20px
+	}
+}
+
+
+footer {
+	border-top: 1px solid #c1c1c1;
+	color: #000;
+	text-transform: uppercase;
+}
+footer .container{
+	border-bottom: 1px solid #c1c1c1;
+	margin-bottom: 20px
+}
+
+footer h1{
+	font-weight: bold;
+}
+
+footer p{
+	color: #999999;
+	padding-bottom: 40px
+}
+
+footer h4{
+	font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px
+}
+
+footer ul{
+	text-align: left;
+}
+
+footer ul li a,
+footer .touch{
+	color: #c1c1c1
+}
+
+footer .touch{
+	text-align: left;
+}
+
+
+footer .touch .cont{
+    width: 90%;
+    display: inline-block;
+    float: right;
+    padding-bottom: 20px
+}
+
+footer .copy {
+	color: #c1c1c1
+}
+
+
+@media (max-width: 549px){
+	footer {
+		margin-bottom: 0;
+		padding-bottom: 0
+	}
+
+	.both {
+	    width: 100% !important;
+	    clear: both !important;
+	}
+}

@@ -1,0 +1,374 @@
+footer {
+	border-top: 1px solid #c1c1c1;
+	color: #000;
+	text-transform: uppercase;
+}
+footer .container{
+	border-bottom: 1px solid #c1c1c1;
+	margin-bottom: 20px
+}
+
+footer h1{
+	font-weight: bold;
+}
+
+footer p{
+	color: #999999;
+	padding-bottom: 40px
+}
+
+footer h4{
+	font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px
+}
+
+footer ul{
+	text-align: left;
+}
+
+footer ul li a,
+footer .touch{
+	color: #c1c1c1
+}
+
+footer .touch{
+	text-align: left;
+}
+
+
+footer .touch .cont{
+    width: 90%;
+    display: inline-block;
+    float: right;
+    padding-bottom: 20px
+}
+
+footer .copy {
+	color: #c1c1c1
+}
+
+
+@media (max-width: 549px){
+	footer {
+		margin-bottom: 0;
+		padding-bottom: 0
+	}
+
+	.both {
+	    width: 100% !important;
+	    clear: both !important;
+	}
+}
+
+/******
+project page
+*********/
+
+.projects{
+	margin: 50px 0;
+}
+
+.projects .img-projects .img-project{
+	width: 100%;
+	height: 100%;
+}
+
+.projects .img-projects .img-project,
+.projects .img-projects .some-img{
+	padding-top: 6px;
+}
+
+
+.projects .img-projects .img-project img{
+	width: 100%;
+	height: 428px;
+}
+
+.projects .img-projects .img-project img,
+.projects .img-projects .some-img img{
+	cursor: crosshair;
+}
+
+
+.projects .img-projects .some-img img{
+    height: 103px;
+    width: 100px
+}
+
+
+.projects .details .head{
+	font-weight: bold;
+}
+
+.projects .details .head .review{
+	font-size: 12px;
+}
+
+.projects .details .head .review .active{
+	color: #FFC107;
+}
+
+.projects .details .head .review .add:hover{
+	cursor: pointer;
+	color: #c1c1c1
+}
+
+.projects .details .body{
+	margin: 15px 0;
+}
+
+.projects .details .body .nav li{
+	display: inline-block;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	color: #c1c1c1
+}
+
+.projects .details .body .nav li:hover{
+	color: #333;
+}
+
+.projects .details .body .nav li:not(:first-child){
+	padding-left: 15px;
+}
+
+.projects .details .body .nav .active{
+	border-bottom: 2px solid #333;
+	color: #333;
+}
+
+.projects .details .body .desc{
+	padding-top: 20px;
+	color: #c1c1c1
+}
+
+.projects .details .body .content .descs{
+	border-bottom: 1px solid #c1c1c1;
+	border-top: 1px solid #c1c1c1;
+	position: relative;
+	top: -20px
+}
+
+.projects .details .body .content ul {
+	padding-left: 0;
+	line-height: 1.9;
+	padding-top: 10px;
+}
+
+.projects .details .body .content .name{
+	color: #333
+}
+
+.projects .details .body .content .select{
+	position: relative;
+	z-index: 1;
+}
+
+.projects .details .body .content .select,
+.projects .details .body .content select{
+	cursor: pointer;
+}
+
+.projects .details .body .content .select:before{
+	content: "\e114";
+	position: absolute;
+	display: block;
+	color: #333;
+	top: 13px;
+    font-size: 12px;
+    right: 18px;
+    font-family: 'Glyphicons Halflings';
+}
+
+.projects .details .body .content select{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+}
+
+
+.projects .details .body .counts{
+	border:1px solid #c1c1c1;
+	display: inline-block;
+	padding: 10px;
+	margin-right: 20px
+}
+
+.projects .details .body .counts span{
+	padding: 0 10px;
+	font-size: 18px
+}
+
+.projects .details .body .counts .active{
+	color: #333;
+}
+
+.projects .details .body .counts .count:hover{
+	cursor: pointer;
+	color: #f00;
+}
+
+.projects .details .body a{
+	background-color: #333333;
+	text-decoration: none;
+	padding: 15px;
+	color: #fff;
+}
+
+.projects .details .body .share{
+	margin: 20px 0;
+}
+
+.projects .details .body .share div{
+	padding: 5px 0
+}
+
+.projects .details .body .share div i{
+	padding: 0 5px
+}
+
+.projects .details .body .share div i:hover{
+	cursor: pointer;
+	color: #333;
+}
+
+.projects .description{
+	margin: 20px 0;
+	background-color: #fff;
+	padding: 20px
+}
+
+.projects .description h3{
+	font-weight: bold;
+	padding-bottom: 20px
+}
+
+.projects .description p{
+	color: #a7a4a4
+}
+
+
+.projects .work{
+	margin-top: 50px;
+	overflow: hidden;
+
+}
+
+.projects .work h3{
+	font-weight: bold;
+}
+
+.shopping-content .shopping div{
+	background-color: #fff;
+	padding: 5px 15px;
+	margin-top: 4px
+}
+
+.shopping-content h4{
+	margin-bottom: 5px
+}
+
+.shopping-content .glyphicon-star-empty{
+	color: #FFC107;
+	font-size: 12px
+}
+
+.shopping-content .shurf{
+	margin: 20px 0;
+}
+
+.shopping-content .shurf i{
+	padding: 10px;
+	color: #c1c1c1;
+	border: 1px solid #c1c1c1;
+	cursor: pointer;
+}
+
+.shopping-content .shurf .active{
+	background-color: #333;
+	border: none;
+}
+
+/*********
+	media
+***********/
+
+@media (min-width: 768px){
+	.projects .details .head h3{
+		padding-top: 20px;
+    	clear: both;
+	}
+}
+
+@media (max-width: 767px){
+	.some-img{
+		display: inline-block; 
+	}
+}
+
+@media (max-width: 524px){
+	.col-iq-12{
+		width: 100% !important;
+		clear: both !important;
+		float: none !important;
+		padding: 0
+	}
+}
+
+@media (max-width: 518px){
+	.some-img{
+		display: inline-block;
+		width: 25% 
+	}
+
+	.some-img img{
+		width: 100% !important;
+		height: 50px !important
+	}
+}
+
+@media (max-width: 400px){
+	.projects .img-projects .img-project,
+	.sellers .seller .img-seller{
+		height: 250px
+	}
+
+	.projects .img-projects .img-project img, 
+	.sellers .seller .img-seller img{
+		height: 100%;
+	}
+}
+
+@media (max-width: 360px){
+	.full{
+		padding: 0;
+	}
+	.projects .details .body .counts{
+		margin-right: 0
+	}
+
+	.projects .details .body a{
+		padding: 15px 8px !important;
+	}
+}
+
+@media (max-width: 317px){
+	.projects .details .body .nav li:not(:first-child){
+		padding-left: 10px
+	}
+
+	.projects .details .body .nav li{
+		padding-right: 5px
+	}
+
+	.projects .description h3{
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,144 @@
+.portfolio{
+	margin: 40px 0;
+}
+
+.portfolios h3{
+	font-weight: bold;
+	padding: 30px 0;
+}
+
+.portfolios ul li{
+	display: inline-block;
+	border: 1px solid #c1c1c1;
+	margin-left: 3px;
+	padding: 5px;
+}
+
+.portfolios ul li:hover{
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+	cursor: pointer;
+}
+
+.portfolios .portfolio .veiws{
+	padding: 0 !important;
+	overflow: hidden;
+}
+
+.portfolios .portfolio{
+	position: relative;
+}
+
+.portfolios .portfolio .View{
+	background-color: rgba(193, 193, 193, 0.7);
+	position: absolute;
+	color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    left: -400px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+}
+
+.portfolios .portfolio a{
+	position: absolute;
+	top: 43%;
+	left: 43%;
+	color: #fff;
+	font-size: 20px;
+	text-decoration:none;
+}
+
+
+.portfolios .portfolio a:hover{
+	color: #e8e8e8
+}
+
+.portfolios .portfolio .port-img{
+	width: 100%;
+	height: 250px;
+}
+
+.portfolios .portfolio .port-img img{
+	width: 100%;
+}
+
+.portfolios .portfolio .veiws:hover .View{
+	left: 0
+}
+
+.portfolios .portfolio .bt{
+	margin: 30px 0;
+	background-color: none;
+	border: 1px solid #c1c1c1
+}
+
+
+footer {
+	border-top: 1px solid #c1c1c1;
+	color: #000;
+	text-transform: uppercase;
+}
+footer .container{
+	border-bottom: 1px solid #c1c1c1;
+	margin-bottom: 20px
+}
+
+footer h1{
+	font-weight: bold;
+}
+
+footer p{
+	color: #999999;
+	padding-bottom: 40px
+}
+
+footer h4{
+	font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px
+}
+
+footer ul{
+	text-align: left;
+}
+
+footer ul li a,
+footer .touch{
+	color: #c1c1c1
+}
+
+footer .touch{
+	text-align: left;
+}
+
+
+footer .touch .cont{
+    width: 90%;
+    display: inline-block;
+    float: right;
+    padding-bottom: 20px
+}
+
+footer .copy {
+	color: #c1c1c1
+}
+
+
+@media (max-width: 549px){
+	footer {
+		margin-bottom: 0;
+		padding-bottom: 0
+	}
+
+	.both {
+	    width: 100% !important;
+	    clear: both !important;
+	}
+}
